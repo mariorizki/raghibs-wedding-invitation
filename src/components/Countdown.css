@@ -1,0 +1,23 @@
+.clock {
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+
+.clock p {
+  font-size: 2rem;
+}
+
+.clock small {
+  font-size: 0.9rem;
+}
+
+span {
+  font-size: 2rem;
+  margin-top: 1.8rem;
+}
