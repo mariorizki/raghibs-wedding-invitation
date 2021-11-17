@@ -6,6 +6,7 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <h1>Nikahan Raghib Blay</h1>
+
       <Countdown />
     </div>
   );

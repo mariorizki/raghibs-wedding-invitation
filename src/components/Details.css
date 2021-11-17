@@ -1,0 +1,12 @@
+.details-container {
+  text-align: center;
+  padding: 2rem 4rem;
+  background-color: #f9e3d8;
+  /* background: url('../images/bg-1.jpg');
+  background-size: cover; */
+}
+.couple-img {
+  width: 60%;
+  border-radius: 100%;
+  border: 2px solid #000;
+}
