@@ -5,7 +5,10 @@ import './Hero.css';
 const Hero = () => {
   return (
     <div className="hero-container">
-      <h1>Nikahan Raghib Blay</h1>
+      <h1 className="hero-text">
+        Raghib & Irna <br />
+        Wedding{' '}
+      </h1>
 
       <Countdown />
     </div>
