@@ -25,7 +25,7 @@ const Details = () => {
           <img className="couple-img" src={raghib} alt="" />
           <p className="couple-name">Raghib</p>
         </Fade>
-        <Fade bottom duration={2500} delay={1000}>
+        <Fade bottom duration={2500}>
           <p>
             Raghib Filhaq, S.Psi. <br /> Putra Ke Tiga Dari <br />
             Bapak Prof. Dr. Dede Rosyada, MA. <br />& Ibu Dr. Andriyani, M.Kes.
@@ -37,7 +37,7 @@ const Details = () => {
           <img className="couple-img" src={irna} alt="" />
           <p className="couple-name">Irna</p>
         </Fade>
-        <Fade bottom duration={2500} delay={1000}>
+        <Fade bottom duration={2500}>
           <p>
             Irna Hasanah, S.Pd. <br /> Putri Ke Dua Dari <br />
             Bapak Asep Hasanudin
@@ -46,14 +46,14 @@ const Details = () => {
         </Fade>
       </Grid>
       <Grid>
-        <Zoom duration={2000} delay={2000}>
+        <Zoom duration={2000} delay={1000}>
           <p>
             Dengan penuh rasa syukur kami ingin memberikan informasi kepada
             Bapak/Ibu/Saudara/i mengenai acara pernikahan dan dapat disaksikan
             melalui live streaming yang akan diselenggarakan pada :
           </p>
         </Zoom>
-        <Zoom bottom duration={2000} delay={2000}>
+        <Zoom bottom duration={2000} delay={1000}>
           <hr style={{ marginTop: '3rem' }} />
           <h3>
             Minggu,
@@ -62,7 +62,7 @@ const Details = () => {
 
           <hr />
         </Zoom>
-        <Zoom duration={2000} delay={2000}>
+        <Zoom duration={2000} delay={1000}>
           <img
             style={{ width: '20%', marginTop: '3rem' }}
             src={require('../images/akad.png').default}
@@ -71,7 +71,7 @@ const Details = () => {
           <h3>Akad Nikah</h3>
           <p>08:00</p>
         </Zoom>
-        <Zoom duration={2000} delay={2000}>
+        <Zoom duration={2000} delay={1000}>
           <img
             style={{ width: '20%', marginTop: '3rem' }}
             src={require('../images/resepsi.png').default}
@@ -80,14 +80,14 @@ const Details = () => {
           <h3>Resepsi</h3>
           <p>11:00</p>
         </Zoom>
-        <Zoom duration={2000} delay={2000}>
+        <Zoom duration={2000} delay={1000}>
           <h3 style={{ marginTop: '3rem' }}>Balai Panghegar</h3>
           <p>
             Jl. Cisinga (Singaparna- Ciawi) 4km Gombong / Ciawi (Jalur Car Free
             Day)
           </p>
         </Zoom>
-        <Zoom duration={2000} delay={2000}>
+        <Zoom duration={2000} delay={1000}>
           <h3 style={{ marginTop: '3rem' }}>Hadiah Pernikahan</h3>
           <p>Anda dapat memberikan hadiah pernikahan secara virtual melalui:</p>
           <p>Bank BCA</p>
