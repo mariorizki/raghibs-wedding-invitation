@@ -1,12 +1,32 @@
 .details-container {
   text-align: center;
-  padding: 2rem 4rem;
+  padding: 2rem;
   background-color: #f9e3d8;
+
   /* background: url('../images/bg-1.jpg');
   background-size: cover; */
 }
 .couple-img {
-  width: 60%;
+  width: 80%;
   border-radius: 100%;
   border: 2px solid #000;
+}
+
+.details-container p {
+  font-weight: 200;
+  line-height: 1.5rem;
+}
+
+hr {
+  width: 70%;
+}
+
+.qr {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .details-container {
+    padding: 5rem;
+  }
 }
