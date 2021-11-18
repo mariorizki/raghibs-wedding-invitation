@@ -23,7 +23,7 @@ const Details = () => {
       <Grid item xs={12} sm={6}>
         <Fade left duration={2500}>
           <img className="couple-img" src={raghib} alt="" />
-          <h3>Raghib</h3>
+          <p className="couple-name">Raghib</p>
         </Fade>
         <Fade bottom duration={2500} delay={1000}>
           <p>
@@ -35,7 +35,7 @@ const Details = () => {
       <Grid item xs={12} sm={6}>
         <Fade right duration={2500}>
           <img className="couple-img" src={irna} alt="" />
-          <h3>Irna</h3>
+          <p className="couple-name">Irna</p>
         </Fade>
         <Fade bottom duration={2500} delay={1000}>
           <p>
@@ -55,10 +55,10 @@ const Details = () => {
         </Zoom>
         <Zoom bottom duration={2000} delay={2000}>
           <hr style={{ marginTop: '3rem' }} />
-          <h4>
+          <h3>
             Minggu,
             <br /> 12 Desember 2021{' '}
-          </h4>
+          </h3>
 
           <hr />
         </Zoom>

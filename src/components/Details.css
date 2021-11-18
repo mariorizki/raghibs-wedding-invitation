@@ -17,10 +17,17 @@
   line-height: 1.5rem;
 }
 
+.couple-name {
+  font-family: 'Marck Script', cursive;
+  font-size: 4rem;
+  color: #8c2e3e;
+}
+
 .details-container h3,
 h4 {
   font-family: 'Marck Script', cursive;
   font-size: 2rem;
+  color: #8c2e3e;
 }
 
 hr {
