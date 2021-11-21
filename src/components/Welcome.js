@@ -3,6 +3,7 @@ import './Welcome.css';
 
 const Welcome = () => {
   const [isOpen, setIsOpen] = useState(true);
+
   return (
     <div
       className={isOpen ? 'welcome-layout' : 'welcome-layout inactive'}

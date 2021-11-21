@@ -10,45 +10,46 @@ import g6 from '../images/g6.jpg';
 import g7 from '../images/g7.jpg';
 import './Gallery.css';
 import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 const Gallery = () => {
   return (
     <SRLWrapper>
       <Grid className="gallery-section" container spacing={2}>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={1500}>
+          <Fade bottom duration={1500}>
             <img className="img-gallery" src={g1} alt="" />
-          </Slide>
+          </Fade>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={1500}>
+          <Fade bottom duration={1500}>
             <img className="img-gallery" src={g2} alt="" />
-          </Slide>
+          </Fade>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={1500}>
+          <Fade bottom duration={1500}>
             <img className="img-gallery" src={g3} alt="" />
-          </Slide>
+          </Fade>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={1500}>
+          <Fade bottom duration={1500}>
             <img className="img-gallery" src={g4} alt="" />
-          </Slide>
+          </Fade>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={1500}>
+          <Fade bottom duration={1500}>
             <img className="img-gallery" src={g5} alt="" />
-          </Slide>
+          </Fade>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={1500}>
+          <Fade bottom duration={1500}>
             <img className="img-gallery" src={g6} alt="" />
-          </Slide>
+          </Fade>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={1500}>
+          <Fade bottom duration={1500}>
             <img className="img-gallery" src={g7} alt="" />
-          </Slide>
+          </Fade>
         </Grid>
       </Grid>
     </SRLWrapper>
