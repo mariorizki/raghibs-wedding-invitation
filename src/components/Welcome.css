@@ -6,7 +6,7 @@
   gap: 2rem;
   height: 100vh;
   color: white;
-  background-color: white;
+  background: linear-gradient(#f9e3d8, #fff);
   /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('../images/hero-bg.jpg') content-box no-repeat; */
   /* background-size: cover; */
@@ -21,6 +21,12 @@
 
 .inactive {
   top: -1000px;
+}
+
+.welcome-layout h3 {
+  font-family: 'Marck Script', cursive;
+  font-size: 2rem;
+  color: #8c2e3e;
 }
 
 .welcome-btn {

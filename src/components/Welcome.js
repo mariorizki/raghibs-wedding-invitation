@@ -12,6 +12,9 @@ const Welcome = () => {
 
   return (
     <div className={isOpen ? 'welcome-layout' : 'welcome-layout inactive'}>
+      <h3>
+        Raghib & Irna's <br /> Wedding Invitation
+      </h3>
       <img src={require('../images/welcome-logo.png').default} alt="" />
       <Button
         className="welcome-btn"

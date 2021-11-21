@@ -43,10 +43,13 @@ const Details = () => {
           <p className="couple-name">Raghib</p>
         </Fade>
         <Fade bottom duration={2500}>
-          <p>
-            Raghib Filhaq, S.Psi. <br /> Putra Ke Empat Dari <br />
-            Bapak Prof. Dr. Dede Rosyada, MA. <br />& Ibu Dr. Andriyani, M.Kes.
-          </p>
+          <div className="name-container">
+            <p>
+              Raghib Filhaq, S.Psi. <br /> Putra Ke Empat Dari <br />
+              Bapak Prof. Dr. Dede Rosyada, MA. <br />& Ibu Dr. Andriyani,
+              M.Kes.
+            </p>
+          </div>
         </Fade>
       </Grid>
       <Grid item xs={12} sm={6}>
@@ -55,20 +58,18 @@ const Details = () => {
           <p className="couple-name">Irna</p>
         </Fade>
         <Fade bottom duration={2500}>
-          <p>
-            Irna Hasanah, S.Pd. <br /> Putri Ke Dua Dari <br />
-            Bapak Asep Hasanudin
-            <br />& Ibu Dedeh Kurniasih
-          </p>
+          <div className="name-container">
+            <p>
+              Irna Hasanah, S.Pd. <br /> Putri Ke Dua Dari <br />
+              Bapak Asep Hasanudin
+              <br />& Ibu Dedeh Kurniasih
+            </p>
+          </div>
         </Fade>
       </Grid>
       <Grid>
         <Zoom duration={2000} delay={1000}>
-          <p>
-            Dengan penuh rasa syukur kami ingin memberikan informasi kepada
-            Bapak/Ibu/Saudara/i mengenai acara pernikahan dan dapat disaksikan
-            melalui live streaming yang akan diselenggarakan pada :
-          </p>
+          <p className="save">Save the Date:</p>
         </Zoom>
         <Zoom bottom duration={2000} delay={1000}>
           <hr style={{ marginTop: '3rem' }} />

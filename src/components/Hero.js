@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <h1 className="hero-text">
-        Raghib & Irna <br />
+        Raghib & Irna's <br />
         Wedding{' '}
       </h1>
 
