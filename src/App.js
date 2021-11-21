@@ -9,8 +9,6 @@ import SimpleReactLightbox from 'simple-react-lightbox';
 import Protokol from './components/Protokol';
 
 function App() {
-  const soundFile = new Audio('../audio/music.mp3');
-  soundFile.play();
   return (
     <SimpleReactLightbox>
       <div className="App">
