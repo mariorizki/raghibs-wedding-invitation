@@ -1,7 +1,8 @@
 .details-container {
   text-align: center;
   padding: 2rem;
-  background-color: #f9e3d8;
+  /* background-color: #f9e3d8; */
+  background: linear-gradient(to right, #f9e3d8, #fff);
 
   /* background: url('../images/bg-1.jpg');
   background-size: cover; */
@@ -28,6 +29,11 @@ h4 {
   font-family: 'Marck Script', cursive;
   font-size: 2rem;
   color: #8c2e3e;
+}
+
+.time {
+  font-weight: normal;
+  font-size: 1.2rem;
 }
 
 hr {

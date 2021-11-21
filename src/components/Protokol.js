@@ -13,13 +13,7 @@ const Protokol = () => {
           <h3>Protokol Kesehatan</h3>
         </div>
       </Bounce>
-      <Rotate bottom left duration={2000} delay={500}>
-        <img
-          className="protocol-img"
-          src={require('../images/protocol-01.png').default}
-          alt=""
-        />
-      </Rotate>
+
       <Rotate bottom right duration={2000} delay={500}>
         <img
           className="protocol-img"

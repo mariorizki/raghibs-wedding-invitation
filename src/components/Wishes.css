@@ -1,5 +1,5 @@
 .wishes {
-  background-color: #f9e3d8;
+  background: linear-gradient(to right, #f9e3d8, #fff);
   width: 100%;
   display: flex;
   justify-content: center;

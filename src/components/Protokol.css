@@ -1,6 +1,6 @@
 .protokol-container {
   padding: 2rem;
-  background-color: #f9e3d8;
+  background: linear-gradient(to right, #f9e3d8, #fff);
 }
 
 .protokol-container h3 {

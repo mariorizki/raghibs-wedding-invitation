@@ -12,7 +12,24 @@ const Details = () => {
   return (
     <Grid className="details-container" container spacing={2}>
       <Grid>
-        <Zoom duration={2000} opposite={true}>
+        <Zoom>
+          <p>
+            وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا
+            لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً
+            ۗاِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ
+          </p>
+          <p>
+            Dan diantara tanda - tanda kekuasaan-Nya ialah diciptakan-Nya
+            untukmu pasangan hidup dari jenismu sendiri supaya kamu mendapat
+            ketenangan hati dan dijadikan-Nya kasih sayang diantara kamu.
+            Sesungguhnya yang demikian itu menjadi tanda - tanda kebesaran-Nya
+            bagi orang - orang yang berfikir.
+          </p>
+          <p>(QS. Ar-Rum : 21)</p>
+        </Zoom>
+      </Grid>
+      <Grid>
+        <Zoom duration={2000}>
           <p>
             Assalamualaikum Warahmatullahi Wabarakatuh. Maha Suci Allah SWT
             telah menciptakan mahluk-Nya berpasang - pasangan dengan mengharap
@@ -27,7 +44,7 @@ const Details = () => {
         </Fade>
         <Fade bottom duration={2500}>
           <p>
-            Raghib Filhaq, S.Psi. <br /> Putra Ke Tiga Dari <br />
+            Raghib Filhaq, S.Psi. <br /> Putra Ke Empat Dari <br />
             Bapak Prof. Dr. Dede Rosyada, MA. <br />& Ibu Dr. Andriyani, M.Kes.
           </p>
         </Fade>
@@ -69,7 +86,7 @@ const Details = () => {
             alt=""
           />
           <h3>Akad Nikah</h3>
-          <p>08:00</p>
+          <p className="time">08:00 - 10:00</p>
         </Zoom>
         <Zoom duration={2000} delay={1000}>
           <img
@@ -78,13 +95,13 @@ const Details = () => {
             alt=""
           />
           <h3>Resepsi</h3>
-          <p>11:00</p>
+          <p className="time">11:00 - 14:00</p>
         </Zoom>
         <Zoom duration={2000} delay={1000}>
-          <h3 style={{ marginTop: '3rem' }}>Balai Panghegar</h3>
+          <h3 style={{ marginTop: '3rem' }}>Bale Panghegar</h3>
           <p>
             Jl. Cisinga (Singaparna- Ciawi) 4km Gombong / Ciawi (Jalur Car Free
-            Day)
+            Day), Kabupaten Tasikmalaya, Jawa Barat.
           </p>
         </Zoom>
         <Zoom duration={2000} delay={1000}>
