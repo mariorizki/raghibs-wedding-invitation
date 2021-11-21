@@ -50,11 +50,6 @@ const Gallery = () => {
             <img className="img-gallery" src={g6} alt="" />
           </Fade>
         </Grid>
-        <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Fade bottom duration={1500}>
-            <img className="img-gallery" src={g7} alt="" />
-          </Fade>
-        </Grid>
       </Grid>
     </SRLWrapper>
   );

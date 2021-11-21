@@ -80,24 +80,26 @@ const Details = () => {
 
           <hr />
         </Zoom>
-        <Zoom duration={2000} delay={1000}>
-          <img
-            style={{ width: '20%', marginTop: '3rem' }}
-            src={require('../images/akad.png').default}
-            alt=""
-          />
-          <h3>Akad Nikah</h3>
-          <p className="time">08:00 - 10:00</p>
-        </Zoom>
-        <Zoom duration={2000} delay={1000}>
-          <img
-            style={{ width: '20%', marginTop: '3rem' }}
-            src={require('../images/resepsi.png').default}
-            alt=""
-          />
-          <h3>Resepsi</h3>
-          <p className="time">11:00 - 14:00</p>
-        </Zoom>
+        <div className="name-container">
+          <Zoom duration={2000} delay={1000}>
+            <img
+              style={{ width: '20%', marginTop: '3rem' }}
+              src={require('../images/akad.png').default}
+              alt=""
+            />
+            <h3>Akad Nikah</h3>
+            <p className="time">08:00 - 10:00</p>
+          </Zoom>
+          <Zoom duration={2000} delay={1000}>
+            <img
+              style={{ width: '20%', marginTop: '3rem' }}
+              src={require('../images/resepsi.png').default}
+              alt=""
+            />
+            <h3>Resepsi</h3>
+            <p className="time">11:00 - 14:00</p>
+          </Zoom>
+        </div>
         <Zoom duration={2000} delay={1000}>
           <h3 style={{ marginTop: '3rem' }}>Bale Panghegar</h3>
           <p>
