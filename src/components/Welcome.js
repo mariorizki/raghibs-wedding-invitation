@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Welcome.css';
 import a from '../audio/music.mp3';
+import Button from '@mui/material/Button';
 
 const Welcome = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -10,14 +11,18 @@ const Welcome = () => {
   };
 
   return (
-    <div
-      className={isOpen ? 'welcome-layout' : 'welcome-layout inactive'}
-      onClick={() => {
-        play();
-        setIsOpen(false);
-      }}
-    >
-      Welcome to Nikahan Raghib
+    <div className={isOpen ? 'welcome-layout' : 'welcome-layout inactive'}>
+      <img src={require('../images/welcome-logo.png').default} alt="" />
+      <Button
+        className="welcome-btn"
+        variant="contained"
+        onClick={() => {
+          play();
+          setIsOpen(false);
+        }}
+      >
+        Buka Undangan
+      </Button>
     </div>
   );
 };
