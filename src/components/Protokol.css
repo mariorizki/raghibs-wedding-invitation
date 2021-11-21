@@ -1,0 +1,15 @@
+.protokol-container {
+  padding: 2rem;
+  background-color: #f9e3d8;
+}
+
+.protokol-container h3 {
+  font-family: 'Marck Script', cursive;
+  font-size: 2rem;
+  color: #8c2e3e;
+}
+
+.protocol-img {
+  margin-top: 3rem;
+  width: 60%;
+}

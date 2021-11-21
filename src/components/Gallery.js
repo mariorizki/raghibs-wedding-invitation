@@ -16,37 +16,37 @@ const Gallery = () => {
     <SRLWrapper>
       <Grid className="gallery-section" container spacing={2}>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={3000}>
+          <Slide bottom duration={1500}>
             <img className="img-gallery" src={g1} alt="" />
           </Slide>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={3000}>
+          <Slide bottom duration={1500}>
             <img className="img-gallery" src={g2} alt="" />
           </Slide>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={3000}>
+          <Slide bottom duration={1500}>
             <img className="img-gallery" src={g3} alt="" />
           </Slide>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={3000}>
+          <Slide bottom duration={1500}>
             <img className="img-gallery" src={g4} alt="" />
           </Slide>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={3000}>
+          <Slide bottom duration={1500}>
             <img className="img-gallery" src={g5} alt="" />
           </Slide>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={3000}>
+          <Slide bottom duration={1500}>
             <img className="img-gallery" src={g6} alt="" />
           </Slide>
         </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
-          <Slide bottom duration={3000}>
+          <Slide bottom duration={1500}>
             <img className="img-gallery" src={g7} alt="" />
           </Slide>
         </Grid>

@@ -21,7 +21,7 @@ const Details = () => {
         </Zoom>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Fade left duration={2500}>
+        <Fade left duration={2000}>
           <img className="couple-img" src={raghib} alt="" />
           <p className="couple-name">Raghib</p>
         </Fade>
@@ -33,7 +33,7 @@ const Details = () => {
         </Fade>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Fade right duration={2500}>
+        <Fade left duration={2000}>
           <img className="couple-img" src={irna} alt="" />
           <p className="couple-name">Irna</p>
         </Fade>

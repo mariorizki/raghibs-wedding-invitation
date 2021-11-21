@@ -6,6 +6,7 @@ import Wishes from './components/Wishes';
 import Details from './components/Details';
 import Gallery from './components/Gallery';
 import SimpleReactLightbox from 'simple-react-lightbox';
+import Protokol from './components/Protokol';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <Details />
         <Gallery />
+        <Protokol />
         <Wishes />
       </div>
     </SimpleReactLightbox>
