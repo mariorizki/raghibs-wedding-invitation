@@ -49,7 +49,7 @@ const Wishes = () => {
 
   return (
     <section className="wishes">
-      <h2>Wedding Wishes</h2>
+      <h3>Wedding Wishes</h3>
       <form className="wishes-form">
         <TextField
           id="standard-basic"

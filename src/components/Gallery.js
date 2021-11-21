@@ -16,6 +16,10 @@ const Gallery = () => {
   return (
     <SRLWrapper>
       <Grid className="gallery-section" container spacing={2}>
+        <Grid xs={12} sm={12}>
+          <h3 className="gallery-title">Wedding Gallery</h3>
+          <p>(Click picture to zoom)</p>
+        </Grid>
         <Grid className="img-gallery-container" xs={6} sm={4}>
           <Fade bottom duration={1500}>
             <img className="img-gallery" src={g1} alt="" />

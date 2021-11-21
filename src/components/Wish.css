@@ -7,3 +7,9 @@
   text-align: start;
   overflow-x: auto;
 }
+
+.wish-name {
+  font-size: 1.5rem;
+  color: #8c2e3e;
+  font-family: 'Marck Script', cursive;
+}

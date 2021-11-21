@@ -8,6 +8,12 @@
   padding: 2rem;
 }
 
+.wishes h3 {
+  font-size: 2rem;
+  color: #8c2e3e;
+  font-family: 'Marck Script', cursive;
+}
+
 .wishes-form {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 100%;

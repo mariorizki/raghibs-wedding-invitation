@@ -3,6 +3,12 @@
   padding: 1rem;
 }
 
+.gallery-title {
+  font-size: 2rem;
+  color: #8c2e3e;
+  font-family: 'Marck Script', cursive;
+}
+
 .img-gallery-container {
   border-radius: 0.5rem;
   padding: 1rem;

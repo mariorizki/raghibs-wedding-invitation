@@ -6,7 +6,7 @@ const Wish = ({ id, wish, name }) => {
   return (
     <Zoom duration={2000}>
       <div className="wish-container" key={id}>
-        <h3>{name}</h3>
+        <h3 className="wish-name">{name}</h3>
         <p>{wish}</p>
       </div>
     </Zoom>
