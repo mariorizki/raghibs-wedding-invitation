@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .protokol-container h3 {
@@ -16,4 +17,10 @@
 .protocol-img {
   margin-top: 3rem;
   width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .protocol-img {
+    width: 10%;
+  }
 }

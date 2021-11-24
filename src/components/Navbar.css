@@ -1,0 +1,13 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(#f9e3d8, #fff);
+  z-index: 10;
+  border: none;
+}
+
+.nav-logo {
+  width: 10%;
+}

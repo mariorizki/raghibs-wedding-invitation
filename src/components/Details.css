@@ -1,6 +1,8 @@
 .details-container {
   text-align: center;
   padding: 2rem;
+  display: flex;
+  justify-content: center;
   /* background-color: #f9e3d8; */
   background: linear-gradient(to right, #f9e3d8, #fff);
 
@@ -16,6 +18,10 @@
 .details-container p {
   font-weight: 200;
   line-height: 1.5rem;
+}
+
+.details-container h5 {
+  font-size: 1rem;
 }
 
 .name-container {

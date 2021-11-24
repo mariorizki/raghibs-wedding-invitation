@@ -44,11 +44,11 @@ const Details = () => {
         </Fade>
         <Fade bottom duration={2500}>
           <div className="name-container">
-            <p>
+            <h5>
               Raghib Filhaq, S.Psi. <br /> Putra Ke Empat Dari <br />
               Bapak Prof. Dr. Dede Rosyada, MA. <br />& Ibu Dr. Andriyani,
               M.Kes.
-            </p>
+            </h5>
           </div>
         </Fade>
       </Grid>
@@ -59,11 +59,11 @@ const Details = () => {
         </Fade>
         <Fade bottom duration={2500}>
           <div className="name-container">
-            <p>
+            <h5>
               Irna Hasanah, S.Pd. <br /> Putri Ke Dua Dari <br />
               Bapak Asep Hasanudin
               <br />& Ibu Dedeh Kurniasih
-            </p>
+            </h5>
           </div>
         </Fade>
       </Grid>
@@ -107,7 +107,7 @@ const Details = () => {
             Day), Kabupaten Tasikmalaya, Jawa Barat.
           </p>
         </Zoom>
-        <Zoom duration={2000} delay={1000}>
+        {/* <Zoom duration={2000} delay={1000}>
           <h3 style={{ marginTop: '3rem' }}>Hadiah Pernikahan</h3>
           <p>Anda dapat memberikan hadiah pernikahan secara virtual melalui:</p>
           <p>Bank BCA</p>
@@ -118,7 +118,7 @@ const Details = () => {
             src={require('../images/qr.jpg').default}
             alt=""
           />
-        </Zoom>
+        </Zoom> */}
       </Grid>
     </Grid>
   );

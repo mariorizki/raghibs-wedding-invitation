@@ -7,17 +7,21 @@ import Details from './components/Details';
 import Gallery from './components/Gallery';
 import SimpleReactLightbox from 'simple-react-lightbox';
 import Protokol from './components/Protokol';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <SimpleReactLightbox>
       <div className="App">
         <Welcome />
+        <Navbar />
         <Hero />
         <Details />
         <Gallery />
         <Protokol />
         <Wishes />
+        <Footer />
       </div>
     </SimpleReactLightbox>
   );
