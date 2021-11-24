@@ -17,30 +17,42 @@ const Protokol = () => {
       <Rotate bottom right duration={2000} delay={500}>
         <img
           className="protocol-img"
-          src={require('../images/protocol-02.png').default}
+          src={require('../images/p-1.png').default}
           alt=""
         />
+        <p>Cuci Tangan</p>
       </Rotate>
       <Rotate bottom left duration={2000} delay={500}>
         <img
           className="protocol-img"
-          src={require('../images/protocol-03.png').default}
+          src={require('../images/p-2.png').default}
           alt=""
         />
+        <p>Gunakan Masker</p>
       </Rotate>
       <Rotate bottom right duration={2000} delay={500}>
         <img
           className="protocol-img"
-          src={require('../images/protocol-04.png').default}
+          src={require('../images/p-3.png').default}
           alt=""
         />
+        <p>Menjaga Jarak</p>
       </Rotate>
       <Rotate bottom left duration={2000} delay={500}>
         <img
           className="protocol-img"
-          src={require('../images/protocol-05.png').default}
+          src={require('../images/p-4.png').default}
           alt=""
         />
+        <p>Hindari Kerumunan</p>
+      </Rotate>
+      <Rotate bottom right duration={2000} delay={500}>
+        <img
+          className="protocol-img"
+          src={require('../images/p-5.png').default}
+          alt=""
+        />
+        <p>Gunakan Handsanitizer</p>
       </Rotate>
     </section>
   );

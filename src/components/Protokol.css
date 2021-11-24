@@ -1,6 +1,10 @@
 .protokol-container {
   padding: 2rem;
   background: linear-gradient(to right, #f9e3d8, #fff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .protokol-container h3 {
@@ -11,5 +15,5 @@
 
 .protocol-img {
   margin-top: 3rem;
-  width: 60%;
+  width: 40%;
 }
