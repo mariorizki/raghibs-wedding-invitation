@@ -9,13 +9,15 @@ import SimpleReactLightbox from 'simple-react-lightbox';
 import Protokol from './components/Protokol';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 function App() {
   return (
     <SimpleReactLightbox>
       <div className="App">
         <Welcome />
-        <Navbar />
+        {/* <Navbar /> */}
+
         <Hero />
         <Details />
         <Gallery />

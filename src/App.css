@@ -23,3 +23,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.play {
+  position: fixed;
+  top: 10;
+  left: 5;
+  width: 100%;
+  background-color: red;
+}

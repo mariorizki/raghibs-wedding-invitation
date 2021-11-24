@@ -16,7 +16,7 @@
   width: 100%;
   transition: ease-in-out 1s;
   cursor: pointer;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .inactive {
@@ -31,4 +31,16 @@
 
 .welcome-btn {
   background-color: #8c2e3e !important;
+}
+
+.play-btn {
+  position: fixed;
+  width: fit-content;
+  top: 80%;
+  left: 5%;
+  background-color: #8c2e3e;
+  display: flex;
+  padding: 0.5rem;
+  z-index: 10;
+  border-radius: 100%;
 }
