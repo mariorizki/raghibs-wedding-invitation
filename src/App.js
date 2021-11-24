@@ -16,14 +16,14 @@ function App() {
     <SimpleReactLightbox>
       <div className="App">
         <Welcome />
-        {/* <Navbar /> */}
+        <Navbar />
 
         <Hero />
         <Details />
         <Gallery />
         <Protokol />
         <Wishes />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </SimpleReactLightbox>
   );
