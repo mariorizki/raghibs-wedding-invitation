@@ -63,6 +63,27 @@ hr {
   width: 50%;
 }
 
+a {
+  text-decoration: none;
+  color: #8c2e3e;
+}
+
+.maps {
+  border: 1px solid #8c2e3e;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 1rem;
+}
+
+.maps:hover {
+  background-color: #8c2e3e;
+  color: #fff;
+}
+
 @media screen and (min-width: 768px) {
   .details-container {
     padding: 5rem;

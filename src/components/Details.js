@@ -106,6 +106,12 @@ const Details = () => {
             Jl. Cisinga (Singaparna- Ciawi) 4km Gombong / Ciawi (Jalur Car Free
             Day), Kabupaten Tasikmalaya, Jawa Barat.
           </p>
+          <a
+            href="https://www.google.com/maps/place/Bale+Panghegar/@-7.195284,108.1364354,17z/data=!3m1!4b1!4m5!3m4!1s0x2e6f4c2b39b5c5e7:0x1746a82d1ee7c1f3!8m2!3d-7.195284!4d108.1386241"
+            target="_blank"
+          >
+            <div className="maps">Buka Maps</div>
+          </a>
         </Zoom>
         {/* <Zoom duration={2000} delay={1000}>
           <h3 style={{ marginTop: '3rem' }}>Hadiah Pernikahan</h3>
